@@ -6,7 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "NODE_ENV=test node_modules/.bin/jest --coverage --config ./jest.config.js",
+    "test": "NODE_ENV=test node_modules/.bin/jest --coverage --silent --config ./jest.config.js",
     "lint": "eslint ."
   },
   "dependencies": {
